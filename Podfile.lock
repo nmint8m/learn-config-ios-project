@@ -1,0 +1,16 @@
+PODS:
+  - LKAWaveCircleProgressBar (0.2.2)
+
+DEPENDENCIES:
+  - LKAWaveCircleProgressBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LKAWaveCircleProgressBar
+
+SPEC CHECKSUMS:
+  LKAWaveCircleProgressBar: db28c978268290622f32b3b407ed53354d423ec3
+
+PODFILE CHECKSUM: 0def74677269100e0b7c3090a05c39a647945b77
+
+COCOAPODS: 1.5.3

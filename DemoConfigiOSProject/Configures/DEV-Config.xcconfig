@@ -1,0 +1,13 @@
+//
+//  DEV-Config.xcconfig
+//  DemoConfigiOSProject
+//
+//  Created by Tam Nguyen M. on 4/30/19.
+//  Copyright © 2019 Tam Nguyen M. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DISPLAY_NAME = [DEV]-Config
+PRODUCT_BUNDLE_IDENTIFIER = dev-config.t8m.dev

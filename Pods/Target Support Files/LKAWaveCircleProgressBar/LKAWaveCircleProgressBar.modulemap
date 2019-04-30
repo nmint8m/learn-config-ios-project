@@ -1,0 +1,6 @@
+framework module LKAWaveCircleProgressBar {
+  umbrella header "LKAWaveCircleProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
