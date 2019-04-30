@@ -37,14 +37,14 @@ final class ViewController: UIViewController {
 extension ViewController {
     struct Config {
         static let size: CGSize = {
-            let width = UIScreen.main.bounds.width - 100
+            let width = UIScreen.main.bounds.width - 140
             return CGSize(width: width, height: width)
         }()
 
         static let origin: CGPoint = {
-            let x: CGFloat = 50
+            let x: CGFloat = 70
             let screenSize = UIScreen.main.bounds
-            let y: CGFloat = (screenSize.height - (screenSize.width - 100)) / 2
+            let y: CGFloat = (screenSize.height - (screenSize.width - 140)) / 2
             return CGPoint(x: x, y: y)
         }()
     }
