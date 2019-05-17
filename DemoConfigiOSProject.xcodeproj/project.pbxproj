@@ -509,7 +509,7 @@
 				223410DE22776D510097F80A /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Develop;
 		};
 		223410D7227763B70097F80A /* Build configuration list for PBXNativeTarget "DemoConfigiOSProject" */ = {
 			isa = XCConfigurationList;
@@ -519,7 +519,7 @@
 				223410DF22776D510097F80A /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Develop;
 		};
 /* End XCConfigurationList section */
 	};
