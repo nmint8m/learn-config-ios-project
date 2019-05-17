@@ -116,6 +116,7 @@
 			buildConfigurationList = 223410D7227763B70097F80A /* Build configuration list for PBXNativeTarget "DemoConfigiOSProject" */;
 			buildPhases = (
 				B13ADBECACDBE8BDC2DC7851 /* [CP] Check Pods Manifest.lock */,
+				2289F68E227808C60066880E /* Swiftlint */,
 				223410C1227763B50097F80A /* Sources */,
 				223410C2227763B50097F80A /* Frameworks */,
 				223410C3227763B50097F80A /* Resources */,
@@ -199,6 +200,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoConfigiOSProject/Pods-DemoConfigiOSProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		2289F68E227808C60066880E /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		B13ADBECACDBE8BDC2DC7851 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

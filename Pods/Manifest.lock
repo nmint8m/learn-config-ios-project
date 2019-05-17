@@ -1,16 +1,20 @@
 PODS:
   - LKAWaveCircleProgressBar (0.2.2)
+  - SwiftLint (0.32.0)
 
 DEPENDENCIES:
   - LKAWaveCircleProgressBar
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - LKAWaveCircleProgressBar
+    - SwiftLint
 
 SPEC CHECKSUMS:
   LKAWaveCircleProgressBar: db28c978268290622f32b3b407ed53354d423ec3
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 
-PODFILE CHECKSUM: 0def74677269100e0b7c3090a05c39a647945b77
+PODFILE CHECKSUM: 20e2f15d2904e1303e8327cd0755387884c97f6a
 
 COCOAPODS: 1.5.3
