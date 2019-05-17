@@ -20,7 +20,7 @@ force_try:
   severity: warning # explicitly
 # rules that have both warning and error levels, can set just the warning level
 # implicitly
-line_length: 110
+line_length: 200
 # they can set both implicitly with an array
 type_body_length:
   - 300 # warning
@@ -38,8 +38,7 @@ type_name:
     error: 50
   excluded: iPhone # excluded via string
 identifier_name:
-  min_length: # only min_length
-    error: 1 # only error
+  min_length: 1 # only warning
   excluded: # excluded via string array
     - id
     - URL
