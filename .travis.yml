@@ -3,15 +3,18 @@ before_install:
     - gem install bundler
     - bundle install
     - bundle exec pod install --repo-update
+    - gem install linterbot
+    - brew install swiftlint
 cache:
   - bundler
   - cocoapods
 language: objective-c
 osx_image: xcode10
-xcode_project: ConfigProject.xcworkspace
-xcode_scheme: Dev
+xcode_project: DemoConfigiOSProject.xcworkspace
+xcode_scheme: "[DEV]-DemoConfigiOSProject"
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
 script:
-    - xcodebuild clean build -sdk iphonesimulator -workspace ConfigProject.xcworkspace -scheme Dev CODE_SIGNING_REQUIRED=NO
+    - ./scripts/lint
+    - xcodebuild clean build -sdk iphonesimulator -workspace DemoConfigiOSProject.xcworkspace -scheme "[DEV]-DemoConfigiOSProject" CODE_SIGNING_REQUIRED=NO
 install:
     - sudo systemsetup -settimezone Asia/Ho_Chi_Minh

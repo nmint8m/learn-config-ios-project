@@ -4,5 +4,6 @@ target 'DemoConfigiOSProject' do
   use_frameworks!
 
   pod 'LKAWaveCircleProgressBar'
+  pod 'SwiftLint'
 
 end

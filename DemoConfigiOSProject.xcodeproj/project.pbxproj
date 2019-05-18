@@ -31,6 +31,9 @@
 		2289F688227804020066880E /* PRO-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PRO-Info.plist"; sourceTree = "<group>"; };
 		2289F689227804020066880E /* DEV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DEV-Info.plist"; sourceTree = "<group>"; };
 		2289F68A227804030066880E /* STG-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STG-Info.plist"; sourceTree = "<group>"; };
+		22F960E2228EB38C005C1E8F /* [STG]-DemoConfigiOSProject.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "[STG]-DemoConfigiOSProject.xcscheme"; path = "DemoConfigiOSProject.xcodeproj/xcshareddata/xcschemes/[STG]-DemoConfigiOSProject.xcscheme"; sourceTree = "<group>"; };
+		22F960E3228EB38C005C1E8F /* DemoConfigiOSProject.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DemoConfigiOSProject.xcscheme; path = DemoConfigiOSProject.xcodeproj/xcshareddata/xcschemes/DemoConfigiOSProject.xcscheme; sourceTree = "<group>"; };
+		22F960E4228EB38C005C1E8F /* [DEV]-DemoConfigiOSProject.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "[DEV]-DemoConfigiOSProject.xcscheme"; path = "DemoConfigiOSProject.xcodeproj/xcshareddata/xcschemes/[DEV]-DemoConfigiOSProject.xcscheme"; sourceTree = "<group>"; };
 		DEBAE621F83C082E3CDE933F /* Pods_DemoConfigiOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoConfigiOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +96,9 @@
 		43918CA622CEEF5105EB0337 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				22F960E4228EB38C005C1E8F /* [DEV]-DemoConfigiOSProject.xcscheme */,
+				22F960E2228EB38C005C1E8F /* [STG]-DemoConfigiOSProject.xcscheme */,
+				22F960E3228EB38C005C1E8F /* DemoConfigiOSProject.xcscheme */,
 				223410EC227800D20097F80A /* Pods-DemoConfigiOSProject.develop.xcconfig */,
 				223410EA227800D20097F80A /* Pods-DemoConfigiOSProject.product.xcconfig */,
 				223410EB227800D20097F80A /* Pods-DemoConfigiOSProject.staging.xcconfig */,
@@ -116,6 +122,7 @@
 			buildConfigurationList = 223410D7227763B70097F80A /* Build configuration list for PBXNativeTarget "DemoConfigiOSProject" */;
 			buildPhases = (
 				B13ADBECACDBE8BDC2DC7851 /* [CP] Check Pods Manifest.lock */,
+				2289F68E227808C60066880E /* Swiftlint */,
 				223410C1227763B50097F80A /* Sources */,
 				223410C2227763B50097F80A /* Frameworks */,
 				223410C3227763B50097F80A /* Resources */,
@@ -199,6 +206,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoConfigiOSProject/Pods-DemoConfigiOSProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		2289F68E227808C60066880E /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		B13ADBECACDBE8BDC2DC7851 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -490,7 +515,7 @@
 				223410DE22776D510097F80A /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Develop;
 		};
 		223410D7227763B70097F80A /* Build configuration list for PBXNativeTarget "DemoConfigiOSProject" */ = {
 			isa = XCConfigurationList;
@@ -500,7 +525,7 @@
 				223410DF22776D510097F80A /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Develop;
 		};
 /* End XCConfigurationList section */
 	};

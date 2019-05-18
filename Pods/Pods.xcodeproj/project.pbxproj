@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F076D8AAC3AFBED49ED957CA9BEBFA /* LKAWaveCircleProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462D4CA9BE1439BFC3E2DC9C68A89BCF /* LKAWaveCircleProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8F14572A8B4240FEE62F47CAA4E7CA /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BAF276FC1F12013311D34B3A22DBBC /* WaveLayer.m */; };
+		05F076D8AAC3AFBED49ED957CA9BEBFA /* LKAWaveCircleProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C557B54289E1852F7C0872666E59C0 /* LKAWaveCircleProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8F14572A8B4240FEE62F47CAA4E7CA /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92128567E3F393C6315FA24FEA85C79F /* WaveLayer.m */; };
 		406E97A69679230D65B0A0C737025D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		4F2940D041A95722C37AD12AF8AE780F /* Pods-DemoConfigiOSProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E0DD7DB6315FE78D473BDD05C536E /* Pods-DemoConfigiOSProject-dummy.m */; };
 		509918E233B37695BF1BA64D8F15AB7E /* Pods-DemoConfigiOSProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510AEF79A0707072653199B28C2E777 /* Pods-DemoConfigiOSProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		669D42E461D1C309584340EECFFFE8B8 /* LKAWaveCircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7865DBE51EC725D2BE1B0B51D1F17090 /* LKAWaveCircleProgressBar-dummy.m */; };
-		6A3ED75CEFF6366DF04A1613D9FA6DD4 /* LKAWaveCircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D461F88A589696F4F90EFF9D44099 /* LKAWaveCircleProgressBar.m */; };
-		BAFB74D660C3DDB2E04F87ED3FA3E6F8 /* LKAWaveCircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A8707CF19FA5798EC4787641BE18BE24 /* LKAWaveCircleProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9ED3E4680706FFAA41BC5FBFD5E05C6 /* WaveLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2763287DE6F969F3573F339CCF79AA9 /* WaveLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		669D42E461D1C309584340EECFFFE8B8 /* LKAWaveCircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDEAA07EE6FE65BFC116A7E6514BAA /* LKAWaveCircleProgressBar-dummy.m */; };
+		6A3ED75CEFF6366DF04A1613D9FA6DD4 /* LKAWaveCircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F92FCEEFD23AFC6BDB6E417ED402BE4 /* LKAWaveCircleProgressBar.m */; };
+		BAFB74D660C3DDB2E04F87ED3FA3E6F8 /* LKAWaveCircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CE0CFBD5DA86875936B8E7B2E7BAB /* LKAWaveCircleProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9ED3E4680706FFAA41BC5FBFD5E05C6 /* WaveLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C534C9D0088C6537839D8F532B4E416 /* WaveLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2A859B0264F2F19CD2ECC2159F5229A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,29 +34,29 @@
 		0F274769F6374E5DE284DFF1F74DB398 /* Pods-DemoConfigiOSProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoConfigiOSProject.modulemap"; sourceTree = "<group>"; };
 		1510AEF79A0707072653199B28C2E777 /* Pods-DemoConfigiOSProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoConfigiOSProject-umbrella.h"; sourceTree = "<group>"; };
 		1A04C5C5A4C1ADC04CDE12FA99350C06 /* Pods-DemoConfigiOSProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoConfigiOSProject-resources.sh"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2470B19631AFFC87E48733B4467B89AC /* Pods_DemoConfigiOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoConfigiOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2470B19631AFFC87E48733B4467B89AC /* Pods_DemoConfigiOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoConfigiOSProject.framework; path = "Pods-DemoConfigiOSProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D75670B6F96FAFD5A74B73998E25AE /* Pods-DemoConfigiOSProject.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoConfigiOSProject.develop.xcconfig"; sourceTree = "<group>"; };
 		2FDAFE19351B023CA85BF50AF1DA9AB8 /* Pods-DemoConfigiOSProject.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoConfigiOSProject.staging.xcconfig"; sourceTree = "<group>"; };
-		462D4CA9BE1439BFC3E2DC9C68A89BCF /* LKAWaveCircleProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKAWaveCircleProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		30F1921F381FC0630C46667C99B0DDB6 /* LKAWaveCircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKAWaveCircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKAWaveCircleProgressBar.xcconfig; sourceTree = "<group>"; };
+		494B26B0F063E0694DE2F17D92E27B60 /* LKAWaveCircleProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKAWaveCircleProgressBar.modulemap; sourceTree = "<group>"; };
 		49C505BB3EF99D5A4B34C6A87CE4F2CB /* Pods-DemoConfigiOSProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoConfigiOSProject-frameworks.sh"; sourceTree = "<group>"; };
 		4D044F4D9F65B550F9C0A205A01B922B /* Pods-DemoConfigiOSProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoConfigiOSProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		522D461F88A589696F4F90EFF9D44099 /* LKAWaveCircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAWaveCircleProgressBar.m; path = WaveAnimation/LKAWaveCircleProgressBar/LKAWaveCircleProgressBar.m; sourceTree = "<group>"; };
-		585F86E619B36B4411955D4E89997E94 /* LKAWaveCircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKAWaveCircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
-		7865DBE51EC725D2BE1B0B51D1F17090 /* LKAWaveCircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKAWaveCircleProgressBar-dummy.m"; sourceTree = "<group>"; };
+		5C534C9D0088C6537839D8F532B4E416 /* WaveLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaveLayer.h; path = WaveAnimation/LKAWaveCircleProgressBar/WaveLayer.h; sourceTree = "<group>"; };
+		5F92FCEEFD23AFC6BDB6E417ED402BE4 /* LKAWaveCircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAWaveCircleProgressBar.m; path = WaveAnimation/LKAWaveCircleProgressBar/LKAWaveCircleProgressBar.m; sourceTree = "<group>"; };
 		7A5E0DD7DB6315FE78D473BDD05C536E /* Pods-DemoConfigiOSProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoConfigiOSProject-dummy.m"; sourceTree = "<group>"; };
+		85CDEAA07EE6FE65BFC116A7E6514BAA /* LKAWaveCircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKAWaveCircleProgressBar-dummy.m"; sourceTree = "<group>"; };
 		8D3CBC26BBA557624FAB7DFF3346E1C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6BAF276FC1F12013311D34B3A22DBBC /* WaveLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaveLayer.m; path = WaveAnimation/LKAWaveCircleProgressBar/WaveLayer.m; sourceTree = "<group>"; };
-		A8707CF19FA5798EC4787641BE18BE24 /* LKAWaveCircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAWaveCircleProgressBar.h; path = WaveAnimation/LKAWaveCircleProgressBar/LKAWaveCircleProgressBar.h; sourceTree = "<group>"; };
+		92128567E3F393C6315FA24FEA85C79F /* WaveLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaveLayer.m; path = WaveAnimation/LKAWaveCircleProgressBar/WaveLayer.m; sourceTree = "<group>"; };
+		B76CE0CFBD5DA86875936B8E7B2E7BAB /* LKAWaveCircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAWaveCircleProgressBar.h; path = WaveAnimation/LKAWaveCircleProgressBar/LKAWaveCircleProgressBar.h; sourceTree = "<group>"; };
 		BA713A9A384C7DBCD0CD5AE2A8E1BA47 /* Pods-DemoConfigiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoConfigiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
-		BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKAWaveCircleProgressBar.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2763287DE6F969F3573F339CCF79AA9 /* WaveLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaveLayer.h; path = WaveAnimation/LKAWaveCircleProgressBar/WaveLayer.h; sourceTree = "<group>"; };
+		CD599AB1CC836C0DCA8BC104D1C6992E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62B96D368C74422A1E2595A6F2171B1 /* Pods-DemoConfigiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoConfigiOSProject.release.xcconfig"; sourceTree = "<group>"; };
-		DE7F204F81C480C689DBFB254CB6BFA9 /* LKAWaveCircleProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKAWaveCircleProgressBar.modulemap; sourceTree = "<group>"; };
+		E5C557B54289E1852F7C0872666E59C0 /* LKAWaveCircleProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKAWaveCircleProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		F04D9F1D19E36C54523D9B04E6F61145 /* Pods-DemoConfigiOSProject.product.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoConfigiOSProject.product.xcconfig"; sourceTree = "<group>"; };
-		F3DEE020F7E5B6295F09EDB47EC918DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F93B58693F7EB5D6A5849937DFE5B0B8 /* LKAWaveCircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKAWaveCircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93B58693F7EB5D6A5849937DFE5B0B8 /* LKAWaveCircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKAWaveCircleProgressBar.framework; path = LKAWaveCircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,26 +79,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		60DF2E6544216C11346A9419C8761551 /* Pods */ = {
+		019EECA0715D76B05CF7FCBB785F66E0 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				894158E581D493DF1A8A2BE219F177A6 /* LKAWaveCircleProgressBar */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6C54E934D0B8FB391F8F25F68DE0F311 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3DEE020F7E5B6295F09EDB47EC918DC /* Info.plist */,
-				DE7F204F81C480C689DBFB254CB6BFA9 /* LKAWaveCircleProgressBar.modulemap */,
-				BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */,
-				7865DBE51EC725D2BE1B0B51D1F17090 /* LKAWaveCircleProgressBar-dummy.m */,
-				585F86E619B36B4411955D4E89997E94 /* LKAWaveCircleProgressBar-prefix.pch */,
-				462D4CA9BE1439BFC3E2DC9C68A89BCF /* LKAWaveCircleProgressBar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LKAWaveCircleProgressBar";
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		77DD80BAD91E5F776C1195FF2142279D /* Products */ = {
@@ -116,18 +102,6 @@
 				B4FF9A001D7752DEA4DC47D9D5E4612E /* Pods-DemoConfigiOSProject */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		894158E581D493DF1A8A2BE219F177A6 /* LKAWaveCircleProgressBar */ = {
-			isa = PBXGroup;
-			children = (
-				A8707CF19FA5798EC4787641BE18BE24 /* LKAWaveCircleProgressBar.h */,
-				522D461F88A589696F4F90EFF9D44099 /* LKAWaveCircleProgressBar.m */,
-				D2763287DE6F969F3573F339CCF79AA9 /* WaveLayer.h */,
-				A6BAF276FC1F12013311D34B3A22DBBC /* WaveLayer.m */,
-				6C54E934D0B8FB391F8F25F68DE0F311 /* Support Files */,
-			);
-			path = LKAWaveCircleProgressBar;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -159,12 +133,39 @@
 			path = "Target Support Files/Pods-DemoConfigiOSProject";
 			sourceTree = "<group>";
 		};
+		BD52D58D27252CA6084975A37982C02A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD599AB1CC836C0DCA8BC104D1C6992E /* Info.plist */,
+				494B26B0F063E0694DE2F17D92E27B60 /* LKAWaveCircleProgressBar.modulemap */,
+				3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */,
+				85CDEAA07EE6FE65BFC116A7E6514BAA /* LKAWaveCircleProgressBar-dummy.m */,
+				30F1921F381FC0630C46667C99B0DDB6 /* LKAWaveCircleProgressBar-prefix.pch */,
+				E5C557B54289E1852F7C0872666E59C0 /* LKAWaveCircleProgressBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LKAWaveCircleProgressBar";
+			sourceTree = "<group>";
+		};
+		C27A8F3B9AA7A74F95C4A28D3AA3DD7F /* LKAWaveCircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				B76CE0CFBD5DA86875936B8E7B2E7BAB /* LKAWaveCircleProgressBar.h */,
+				5F92FCEEFD23AFC6BDB6E417ED402BE4 /* LKAWaveCircleProgressBar.m */,
+				5C534C9D0088C6537839D8F532B4E416 /* WaveLayer.h */,
+				92128567E3F393C6315FA24FEA85C79F /* WaveLayer.m */,
+				BD52D58D27252CA6084975A37982C02A /* Support Files */,
+			);
+			name = LKAWaveCircleProgressBar;
+			path = LKAWaveCircleProgressBar;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				60DF2E6544216C11346A9419C8761551 /* Pods */,
+				EACD92F19C55DE22D56A4EB5F13FBFA4 /* Pods */,
 				77DD80BAD91E5F776C1195FF2142279D /* Products */,
 				83C2EEACA7FD51474DC3370850E54A71 /* Targets Support Files */,
 			);
@@ -176,6 +177,15 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACD92F19C55DE22D56A4EB5F13FBFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27A8F3B9AA7A74F95C4A28D3AA3DD7F /* LKAWaveCircleProgressBar */,
+				019EECA0715D76B05CF7FCBB785F66E0 /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,11 +260,10 @@
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 77DD80BAD91E5F776C1195FF2142279D /* Products */;
@@ -317,7 +326,7 @@
 /* Begin XCBuildConfiguration section */
 		0475062B49CF0B080DD2B71FF8364EBE /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */;
+			baseConfigurationReference = 3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -353,7 +362,7 @@
 		};
 		04BD66B4ADBBFFE302B2EC6A331A0976 /* Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */;
+			baseConfigurationReference = 3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -651,7 +660,7 @@
 		};
 		6CEA0ED545AC49F47C982C07485DB1A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */;
+			baseConfigurationReference = 3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -686,7 +695,7 @@
 		};
 		88104014EF1208F5F6345EE6297B83CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */;
+			baseConfigurationReference = 3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,7 +731,7 @@
 		};
 		B84C23B14BE88C1CB22A941C374392D6 /* Product */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE84FEAD00BBB2C3F325504389B17AAD /* LKAWaveCircleProgressBar.xcconfig */;
+			baseConfigurationReference = 3291AE99D9CF8CCB74D76D123E419C4C /* LKAWaveCircleProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
