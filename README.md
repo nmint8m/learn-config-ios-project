@@ -10,7 +10,7 @@ A couple of problems I have met when configuring this project with Travis CI:
 - Set the configuration file setting* `None` for the Pods related target.
 - Close the `*.xcworkspace`.
 - Run `pod install` again.
-- Now open and build your `.xcworkspace`.
+- Now open and build your `.xcworkspace` and add the Pods related target again.
 
 <center>
 	<img src="./Images/img-unable-to-open-file-in-target.png" width="500">
